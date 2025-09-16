@@ -17,6 +17,8 @@ const meetingRoutes = require('./src/routes/meetings');
 const slotRoutes = require('./src/routes/slots');
 const customerAuthRoutes = require('./src/routes/customerAuth');
 const paymentRoutes = require('./src/routes/payments');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./src/config/swagger');
 
 // Initialize express app
 const app = express();
@@ -44,6 +46,9 @@ app.use('/api/customers', customerRoutes);
 app.use('/api/meetings', meetingRoutes);
 app.use('/api/slots', slotRoutes);
 app.use('/api/payments', paymentRoutes);
+
+// Swagger docs
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // // Error handling
 // app.use(errorHandler);

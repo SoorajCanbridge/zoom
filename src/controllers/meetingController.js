@@ -9,7 +9,16 @@ const ApiResponse = require('../utils/apiResponse');
 const meetingController = {
   // Create new meeting
   create: asyncHandler(async (req, res) => {
-    const { title, customerId, startTime, duration } = req.body;
+    const {
+      title,
+      customerId,
+      startTime,
+      duration,
+      price,
+      currency,
+      paymentRequired,
+      notes
+    } = req.body;
 
     if (!title || typeof title !== 'string') {
       throw new AppError('Valid title is required', 400);
@@ -23,6 +32,15 @@ const meetingController = {
     const durationMinutes = duration != null ? Number(duration) : 30;
     if (!Number.isFinite(durationMinutes) || durationMinutes <= 0) {
       throw new AppError('duration must be a positive number', 400);
+    }
+
+    // Basic validation for payment fields when provided
+    const normalizedPaymentRequired = paymentRequired === true || paymentRequired === 'true';
+    const numericPrice = price != null ? Number(price) : 0;
+
+    
+    if (normalizedPaymentRequired && (!Number.isFinite(numericPrice) || numericPrice <= 0)) {
+      throw new AppError('price must be a positive number when paymentRequired is true', 400);
     }
 
     const parsedStart = new Date(startTime);
@@ -52,7 +70,12 @@ const meetingController = {
       startTime: parsedStart,
       duration: durationMinutes,
       zoomMeetingId: String(zoomMeeting.id || zoomMeeting.uuid || ''),
-      zoomJoinUrl: zoomMeeting.join_url
+      zoomJoinUrl: zoomMeeting.join_url,
+      // Model fields
+      price: numericPrice,
+      currency: typeof currency === 'string' && currency.trim() ? currency.trim() : undefined,
+      paymentRequired: normalizedPaymentRequired,
+      notes: typeof notes === 'string' && notes.trim() ? notes.trim() : undefined
     });
 
     await meeting.save();
