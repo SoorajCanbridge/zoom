@@ -1,0 +1,169 @@
+{"date":"Sat Sep 13 2025 22:24:55 GMT+0530 (India Standard Time)","error":{},"level":"error","message":"unhandledRejection: logger.error is not a function\nTypeError: logger.error is not a function\n    at connectDB (C:\\Users\\midhun\\Downloads\\ZoomApp\\src\\config\\database.js:12:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":47458.937},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\midhun\\Downloads\\ZoomApp\\app.js"],"cwd":"C:\\Users\\midhun\\Downloads\\ZoomApp","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262287,"external":20564515,"heapTotal":35274752,"heapUsed":20170056,"rss":67207168},"pid":12312,"uid":null,"version":"v20.18.0"},"rejection":true,"stack":"TypeError: logger.error is not a function\n    at connectDB (C:\\Users\\midhun\\Downloads\\ZoomApp\\src\\config\\database.js:12:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-09-13T16:54:55.370Z","trace":[{"column":12,"file":"C:\\Users\\midhun\\Downloads\\ZoomApp\\src\\config\\database.js","function":"connectDB","line":12,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T16:59:11.300Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T16:59:54.945Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:00:06.031Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:01:56.532Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:05:17.506Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:06:04.715Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:08:08.321Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:08:08.900Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:11:55.664Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:12:18.282Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:12:18.791Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:16:14.063Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:16:15.664Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:16:29.389Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:16:33.958Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:41:33.092Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:41:33.682Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:42:45.031Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:42:45.596Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:43:41.633Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:43:44.266Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:43:58.042Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:43:59.570Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T17:44:35.352Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T17:44:36.815Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T19:06:09.324Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T19:06:09.831Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T19:08:06.092Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T19:08:06.585Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T19:10:49.645Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T19:10:50.249Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-13T19:11:28.143Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-13T19:11:29.089Z"}
+{"error":"getaddrinfo ENOTFOUND smtp.example.com","level":"error","message":"Email sending failed:","subject":"Welcome to Our CRM","timestamp":"2025-09-13T19:11:32.009Z","to":"sadasd@gmail.com"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T07:13:50.893Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T07:13:51.503Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T07:45:44.692Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T07:45:45.166Z"}
+{"error":"Invalid greeting. response=* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Server ready.: * OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Server ready.","level":"error","message":"Email sending failed:","subject":"Welcome to Our CRM","timestamp":"2025-09-14T07:45:49.982Z","to":"s2adasd@gmail.com"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T07:54:16.313Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T07:54:16.776Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T07:55:10.006Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T07:55:23.898Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T07:56:00.709Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T07:56:11.629Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T07:56:12.107Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T08:13:15.431Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T08:13:15.946Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T08:13:26.969Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T08:13:27.428Z"}
+{"error":"Invalid greeting. response=* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Server ready.: * OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN AUTH=LOGIN] Server ready.","level":"error","message":"Email sending failed:","subject":"Welcome to Our CRM","timestamp":"2025-09-14T08:28:30.224Z","to":"s2ada1sd@gmail.com"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T08:31:51.553Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T08:31:52.100Z"}
+{"level":"info","message":"Email sent successfully:","messageId":"<55299ff6-159d-4632-6a59-8a634c9d71f0@apcams.net>","subject":"Welcome to Our CRM","timestamp":"2025-09-14T08:32:03.843Z","to":"s2ada321sd@gmail.com"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T08:32:51.514Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T08:32:51.945Z"}
+{"level":"info","message":"Email sent successfully:","messageId":"<e9f5be73-25ea-ec6e-7a24-01ab6e87e5cb@apcams.net>","subject":"Welcome to Our CRM","timestamp":"2025-09-14T08:33:02.311Z","to":"sooraj.canbridgeglobal@gmail.com"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T08:44:18.104Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T08:44:18.679Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T08:58:18.169Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T08:58:19.789Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T09:03:41.157Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T09:03:41.832Z"}
+{"level":"info","message":"::1 - - [14/Sep/2025:09:03:44 +0000] \"POST /api/auth/login HTTP/1.1\" 200 398 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-14T09:03:44.788Z"}
+{"duration":"250ms","level":"info","message":"Request completed","method":"POST","status":200,"timestamp":"2025-09-14T09:03:44.826Z","url":"/api/auth/login","userAgent":"PostmanRuntime/7.37.3","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [14/Sep/2025:09:03:50 +0000] \"POST /api/auth/login HTTP/1.1\" 200 398 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-14T09:03:50.022Z"}
+{"duration":"160ms","level":"info","message":"Request completed","method":"POST","status":200,"timestamp":"2025-09-14T09:03:50.022Z","url":"/api/auth/login","userAgent":"PostmanRuntime/7.37.3","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T09:05:11.023Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T09:05:13.627Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T11:49:14.624Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T11:49:15.137Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:07:11.277Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:07:11.799Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:09:37.661Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:09:38.215Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:09:50.200Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:09:51.671Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:11:55.691Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:11:56.225Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:12:09.819Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:12:11.324Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:12:19.601Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:12:20.090Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:12:30.312Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:12:31.809Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:12:43.649Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:12:45.147Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:12:54.355Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:12:55.850Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:13:09.070Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:13:09.567Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:13:31.943Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:13:32.409Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:13:59.344Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:13:59.834Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T12:16:23.775Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T12:16:24.282Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T13:49:03.598Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T13:49:04.134Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T14:54:17.300Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T14:54:17.810Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T14:54:31.580Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T14:54:33.076Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T16:14:36.082Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T16:14:37.667Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T17:00:14.543Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T17:00:15.068Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-14T17:00:59.899Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-14T17:01:00.376Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T17:52:35.123Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T17:52:35.776Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T18:07:39.639Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T18:07:40.144Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T18:07:56.219Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T18:07:57.718Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T18:08:50.109Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T18:08:50.791Z"}
+{"level":"info","message":"::1 - - [15/Sep/2025:18:19:11 +0000] \"POST /api/auth/login HTTP/1.1\" 200 398 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T18:19:11.623Z"}
+{"duration":"209ms","level":"info","message":"Request completed","method":"POST","status":200,"timestamp":"2025-09-15T18:19:11.624Z","url":"/api/auth/login","userAgent":"PostmanRuntime/7.37.3","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:02:35 +0000] \"POST /api/customers/create HTTP/1.1\" 404 160 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:02:35.580Z"}
+{"duration":"42ms","level":"info","message":"Request completed","method":"POST","status":404,"timestamp":"2025-09-15T19:02:35.581Z","url":"/api/customers/create","userAgent":"PostmanRuntime/7.37.3","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"Email sent successfully:","messageId":"<80855036-7c92-a2c2-92ea-4223683ed68e@apcams.net>","subject":"Welcome to Our CRM","timestamp":"2025-09-15T19:02:58.038Z","to":"sooraj.canbridgeglobal@gmail.com"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:02:58 +0000] \"POST /api/customers/ HTTP/1.1\" 201 368 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:02:58.040Z"}
+{"duration":"2647ms","level":"info","message":"Request completed","method":"POST","status":201,"timestamp":"2025-09-15T19:02:58.040Z","url":"/api/customers/","userAgent":"PostmanRuntime/7.37.3","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:03:24 +0000] \"GET /api/customers/ HTTP/1.1\" 200 520 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:03:24.971Z"}
+{"duration":"152ms","level":"info","message":"Request completed","method":"GET","status":200,"timestamp":"2025-09-15T19:03:24.972Z","url":"/api/customers/","userAgent":"PostmanRuntime/7.37.3","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:06:32 +0000] \"POST /api/meeting/ HTTP/1.1\" 404 152 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:06:32.021Z"}
+{"duration":"1ms","level":"info","message":"Request completed","method":"POST","status":404,"timestamp":"2025-09-15T19:06:32.022Z","url":"/api/meeting/","userAgent":"PostmanRuntime/7.37.3","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:06:39 +0000] \"POST /api/meeting HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:06:39.665Z"}
+{"duration":"9ms","level":"info","message":"Request completed","method":"POST","status":404,"timestamp":"2025-09-15T19:06:39.674Z","url":"/api/meeting","userAgent":"PostmanRuntime/7.37.3","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:06:53 +0000] \"POST /api/meetings HTTP/1.1\" 404 152 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:06:53.243Z"}
+{"duration":"1ms","level":"info","message":"Request completed","method":"POST","status":404,"timestamp":"2025-09-15T19:06:53.243Z","url":"/api/meetings","userAgent":"PostmanRuntime/7.37.3","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:07:07.331Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T19:07:08.905Z"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:07:12 +0000] \"POST /api/meetings/ HTTP/1.1\" 500 389 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:07:12.856Z"}
+{"duration":"1520ms","level":"info","message":"Request completed","method":"POST","status":500,"timestamp":"2025-09-15T19:07:12.860Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.37.3","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:08:11.541Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T19:08:12.083Z"}
+{"level":"info","message":"Email sent successfully:","messageId":"<3ee4e774-0971-c989-f81d-02b3255bc4b2@apcams.net>","subject":"Meeting Confirmation: MEETING","timestamp":"2025-09-15T19:08:18.505Z","to":"sooraj.canbridgeglobal@gmail.com"}
+{"level":"info","message":"Email sent successfully:","messageId":"<ca473836-20c4-648d-abf8-0756dbf989ca@apcams.net>","subject":"Meeting Confirmation: MEETING","timestamp":"2025-09-15T19:08:21.499Z","to":"sooraj.canbridgeglobal@gmail.com"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:08:21 +0000] \"POST /api/meetings/ HTTP/1.1\" 201 1011 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:08:21.504Z"}
+{"duration":"7108ms","level":"info","message":"Request completed","method":"POST","status":201,"timestamp":"2025-09-15T19:08:21.505Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.37.3","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:10:45 +0000] \"GET /api/meetings/ HTTP/1.1\" 404 152 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:10:45.476Z"}
+{"duration":"33ms","level":"info","message":"Request completed","method":"GET","status":404,"timestamp":"2025-09-15T19:10:45.476Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.37.3","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:10:53.421Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T19:10:53.925Z"}
+{"level":"info","message":"::1 - - [15/Sep/2025:19:10:56 +0000] \"GET /api/meetings/ HTTP/1.1\" 200 724 \"-\" \"PostmanRuntime/7.37.3\"","timestamp":"2025-09-15T19:10:56.159Z"}
+{"duration":"166ms","level":"info","message":"Request completed","method":"GET","status":200,"timestamp":"2025-09-15T19:10:56.160Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.37.3","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:12:56.174Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T19:12:56.643Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:30:59.292Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:31:20.633Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:31:36.971Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:31:48.600Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:32:10.087Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:32:25.819Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:32:38.368Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:32:58.776Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:33:11.666Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T19:33:12.132Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:33:20.563Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T19:33:21.013Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-15T19:34:01.955Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-15T19:34:02.524Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-16T11:40:26.252Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-16T11:40:27.465Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-16T11:49:42.002Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-16T11:49:43.060Z"}
