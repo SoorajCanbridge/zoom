@@ -17,7 +17,8 @@ const meetingController = {
       price,
       currency,
       paymentRequired,
-      notes
+      notes,
+      host
     } = req.body;
 
     if (!title || typeof title !== 'string') {
@@ -71,6 +72,7 @@ const meetingController = {
       duration: durationMinutes,
       zoomMeetingId: String(zoomMeeting.id || zoomMeeting.uuid || ''),
       zoomJoinUrl: zoomMeeting.join_url,
+      host:host,
       // Model fields
       price: numericPrice,
       currency: typeof currency === 'string' && currency.trim() ? currency.trim() : undefined,
