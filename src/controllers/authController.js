@@ -112,6 +112,15 @@ const authController = {
         'Password reset email sent successfully'
       )
     );
+  }),
+
+  getUser: asyncHandler(async (req, res) => {
+    const users = await User.find().select('-password'); // exclude password
+    res.status(200).json({
+      success: true,
+      count: users.length,
+      data: users
+    });
   })
 };
 

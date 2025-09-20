@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { authEither } = require('../middleware/auth');
+const { auth } = require('../middleware/auth');
 // const { validate } = require('../middleware/validate');
 const slotController = require('../controllers/slotController');
 // const { check } = require('express-validator');
@@ -11,7 +11,9 @@ const slotController = require('../controllers/slotController');
  *   name: Slots
  *   description: Manage time slots and bookings
  */
-
+router.get('/available', 
+  slotController.getAvailable
+);
 // Validation rules
 // const slotValidation = [
 //   check('startTime')
@@ -40,7 +42,7 @@ const slotController = require('../controllers/slotController');
 // ];
 
 // Apply auth middleware to all routes
-router.use(authEither);
+router.use(auth);
 
 // Routes
 /**
@@ -94,9 +96,7 @@ router.post('/',
  *       200:
  *         description: Available slots
  */
-router.get('/available', 
-  slotController.getAvailable
-);
+
 
 /**
  * @swagger

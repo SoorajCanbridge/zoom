@@ -112,4 +112,6 @@ router.post('/password-reset',
   authController.requestPasswordReset
 );
 
+router.get('/getall',authController.getUser)
+
 module.exports = router; 

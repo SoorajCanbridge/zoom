@@ -51,7 +51,7 @@ router.use(auth);
  *                 type: string
  *               customerId:
  *                 type: string
- *                host:
+ *               host:
  *                 type: string
  *               startTime:
  *                 type: string
