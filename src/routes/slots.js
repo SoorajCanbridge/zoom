@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { auth } = require('../middleware/auth');
+const { authEither } = require('../middleware/auth');
 // const { validate } = require('../middleware/validate');
 const slotController = require('../controllers/slotController');
 // const { check } = require('express-validator');
@@ -40,7 +40,7 @@ const slotController = require('../controllers/slotController');
 // ];
 
 // Apply auth middleware to all routes
-router.use(auth);
+router.use(authEither);
 
 // Routes
 /**
