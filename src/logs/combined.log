@@ -365,5 +365,15 @@
 {"duration":"53ms","level":"info","message":"Request completed","method":"GET","status":200,"timestamp":"2025-09-20T17:32:12.369Z","url":"/api/auth/getall","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","userId":"unauthenticated"}
 {"level":"info","message":"::1 - - [20/Sep/2025:17:32:14 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","timestamp":"2025-09-20T17:32:14.931Z"}
 {"duration":"8ms","level":"info","message":"Request completed","method":"GET","status":404,"timestamp":"2025-09-20T17:32:14.937Z","url":"/favicon.ico","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","userId":"unauthenticated"}
-{"level":"info","message":"Starting the application...","timestamp":"2025-09-20T17:33:00.730Z"}
-{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-20T17:33:01.276Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-20T18:03:14.016Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-20T18:03:14.597Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-20T18:04:03.219Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-20T18:04:03.713Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-20T18:04:17.093Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-20T18:04:17.659Z"}
+{"level":"info","message":"::1 - - [20/Sep/2025:18:04:18 +0000] \"GET /api/auth/getall HTTP/1.1\" 401 62 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","timestamp":"2025-09-20T18:04:18.276Z"}
+{"duration":"5ms","level":"info","message":"Request completed","method":"GET","status":401,"timestamp":"2025-09-20T18:04:18.277Z","url":"/api/auth/getall","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-20T18:05:16.551Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-20T18:05:17.064Z"}
+{"level":"info","message":"::1 - - [20/Sep/2025:18:05:17 +0000] \"GET /api/auth/getall HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","timestamp":"2025-09-20T18:05:17.115Z"}
+{"duration":"471ms","level":"info","message":"Request completed","method":"GET","status":304,"timestamp":"2025-09-20T18:05:17.116Z","url":"/api/auth/getall","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","userId":"unauthenticated"}

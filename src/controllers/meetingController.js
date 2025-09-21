@@ -67,7 +67,6 @@ const meetingController = {
     const meeting = new Meeting({
       title,
       customer: customerId,
-      host: req.user._id,
       startTime: parsedStart,
       duration: durationMinutes,
       zoomMeetingId: String(zoomMeeting.id || zoomMeeting.uuid || ''),
