@@ -379,3 +379,64 @@
 {"duration":"471ms","level":"info","message":"Request completed","method":"GET","status":304,"timestamp":"2025-09-20T18:05:17.116Z","url":"/api/auth/getall","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","userId":"unauthenticated"}
 {"level":"info","message":"Starting the application...","timestamp":"2025-09-21T05:56:37.719Z"}
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T05:56:38.228Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:20:19.559Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:20:20.093Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:21:15 +0000] \"POST /api/auth/login HTTP/1.1\" 200 398 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:21:15.712Z"}
+{"duration":"182ms","level":"info","message":"Request completed","method":"POST","status":200,"timestamp":"2025-09-21T08:21:15.713Z","url":"/api/auth/login","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:28:03.307Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:28:03.807Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:28:21.054Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:28:21.524Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:28:54.347Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:28:54.816Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:29:39 +0000] \"POST /api/meetings HTTP/1.1\" 400 1241 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:29:39.468Z"}
+{"duration":"49ms","level":"info","message":"Request completed","method":"POST","status":400,"timestamp":"2025-09-21T08:29:39.469Z","url":"/api/meetings","userAgent":"PostmanRuntime/7.46.1","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:29:43 +0000] \"POST /api/meetings/ HTTP/1.1\" 400 1241 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:29:43.484Z"}
+{"duration":"35ms","level":"info","message":"Request completed","method":"POST","status":400,"timestamp":"2025-09-21T08:29:43.485Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:29:49 +0000] \"POST /api/meetings/ HTTP/1.1\" 400 1241 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:29:49.648Z"}
+{"duration":"35ms","level":"info","message":"Request completed","method":"POST","status":400,"timestamp":"2025-09-21T08:29:49.649Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:29:59 +0000] \"GET /api/meetings/getall HTTP/1.1\" 404 158 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:29:59.772Z"}
+{"duration":"36ms","level":"info","message":"Request completed","method":"GET","status":404,"timestamp":"2025-09-21T08:29:59.773Z","url":"/api/meetings/getall","userAgent":"PostmanRuntime/7.46.1","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:30:04 +0000] \"GET /api/meetings/ HTTP/1.1\" 200 7342 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:30:04.295Z"}
+{"duration":"288ms","level":"info","message":"Request completed","method":"GET","status":200,"timestamp":"2025-09-21T08:30:04.295Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:30:18.399Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:30:18.939Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:30:21 +0000] \"GET /api/meetings/ HTTP/1.1\" 200 7342 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:30:21.383Z"}
+{"duration":"172ms","level":"info","message":"Request completed","method":"GET","status":200,"timestamp":"2025-09-21T08:30:21.384Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:30:42.590Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:30:43.055Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:30:45 +0000] \"GET /api/meetings/ HTTP/1.1\" 200 7342 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:30:45.463Z"}
+{"duration":"162ms","level":"info","message":"Request completed","method":"GET","status":200,"timestamp":"2025-09-21T08:30:45.464Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"68c67dba105025b1091e189a"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:32:12 +0000] \"POST /api/customer-auth/signup HTTP/1.1\" 400 225 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:32:12.933Z"}
+{"duration":"9ms","level":"info","message":"Request completed","method":"POST","status":400,"timestamp":"2025-09-21T08:32:12.934Z","url":"/api/customer-auth/signup","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"Email sent successfully:","messageId":"<30c619e3-e4bb-d9e8-375e-e9b48f4818e5@apcams.net>","subject":"Your OTP Code","timestamp":"2025-09-21T08:33:01.969Z","to":"s2adasd@gmail.com"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:33:01 +0000] \"POST /api/customer-auth/signup HTTP/1.1\" 201 146 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:33:01.973Z"}
+{"duration":"3485ms","level":"info","message":"Request completed","method":"POST","status":201,"timestamp":"2025-09-21T08:33:01.975Z","url":"/api/customer-auth/signup","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:33:39 +0000] \"POST /api/customer-auth/login HTTP/1.1\" 403 271 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:33:39.692Z"}
+{"duration":"116ms","level":"info","message":"Request completed","method":"POST","status":403,"timestamp":"2025-09-21T08:33:39.693Z","url":"/api/customer-auth/login","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:34:55 +0000] \"POST /api/customer-auth/verify-opt HTTP/1.1\" 404 168 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:34:55.577Z"}
+{"duration":"2ms","level":"info","message":"Request completed","method":"POST","status":404,"timestamp":"2025-09-21T08:34:55.577Z","url":"/api/customer-auth/verify-opt","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:35:14 +0000] \"POST /api/customer-auth/verify-otp HTTP/1.1\" 200 383 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:35:14.094Z"}
+{"duration":"92ms","level":"info","message":"Request completed","method":"POST","status":200,"timestamp":"2025-09-21T08:35:14.095Z","url":"/api/customer-auth/verify-otp","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:35:21 +0000] \"POST /api/customer-auth/login HTTP/1.1\" 200 376 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:35:21.263Z"}
+{"duration":"121ms","level":"info","message":"Request completed","method":"POST","status":200,"timestamp":"2025-09-21T08:35:21.263Z","url":"/api/customer-auth/login","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:35:30 +0000] \"GET /api/meetings/ HTTP/1.1\" 500 1284 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:35:30.677Z"}
+{"duration":"35ms","level":"info","message":"Request completed","method":"GET","status":500,"timestamp":"2025-09-21T08:35:30.678Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:35:57.566Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:35:59.123Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:35:59 +0000] \"GET /api/meetings/ HTTP/1.1\" 500 1283 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:35:59.883Z"}
+{"duration":"44ms","level":"info","message":"Request completed","method":"GET","status":500,"timestamp":"2025-09-21T08:35:59.884Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:36:09.933Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:36:10.416Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:36:12 +0000] \"GET /api/meetings/ HTTP/1.1\" 500 1283 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:36:12.243Z"}
+{"duration":"199ms","level":"info","message":"Request completed","method":"GET","status":500,"timestamp":"2025-09-21T08:36:12.244Z","url":"/api/meetings/","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:44:25.168Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:44:26.770Z"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:50:17.285Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:50:17.772Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:50:28 +0000] \"GET /api/meetings/get HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:50:28.131Z"}
+{"duration":"49ms","level":"info","message":"Request completed","method":"GET","status":404,"timestamp":"2025-09-21T08:50:28.132Z","url":"/api/meetings/get","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T08:50:41.471Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T08:50:41.967Z"}
+{"level":"info","message":"::1 - - [21/Sep/2025:08:50:48 +0000] \"GET /api/meetings/getmeetings HTTP/1.1\" 200 142 \"-\" \"PostmanRuntime/7.46.1\"","timestamp":"2025-09-21T08:50:48.635Z"}
+{"duration":"118ms","level":"info","message":"Request completed","method":"GET","status":200,"timestamp":"2025-09-21T08:50:48.636Z","url":"/api/meetings/getmeetings","userAgent":"PostmanRuntime/7.46.1","userId":"unauthenticated"}

@@ -187,7 +187,60 @@ const meetingController = {
         meeting
       )
     );
-  })
-};
+  }),
+
+
+getMeetingCustomer: asyncHandler(async (req, res) => {
+  const page = parseInt(req.query.page, 10) || 1;
+  const limit = parseInt(req.query.limit, 10) || 10;
+  const { status, startDate, endDate } = req.query;
+
+  // Base query
+  const query = { customer: req.customer._id };
+
+  // Add status filter
+  if (status) {
+    query.status = status;
+  }
+
+  // Add date range filter
+  if (startDate && endDate) {
+    query.startTime = {
+      $gte: new Date(startDate),
+      $lte: new Date(endDate)
+    };
+  } else if (startDate) {
+    query.startTime = { $gte: new Date(startDate) };
+  } else if (endDate) {
+    query.startTime = { $lte: new Date(endDate) };
+  }
+
+  // Count total
+  const total = await Meeting.countDocuments(query);
+
+  // Fetch meetings
+  const meetings = await Meeting.find(query)
+    .populate('customer', 'name email company')
+    .populate('host', 'firstName lastName email')
+    .skip((page - 1) * limit)
+    .limit(limit)
+    .sort({ startTime: 1 });
+
+  // Response
+  res.json(
+    ApiResponse.paginated(
+      'Meetings retrieved successfully',
+      meetings,
+      {
+        total,
+        page,
+        pages: Math.ceil(total / limit),
+        limit
+      }
+    )
+  );
+}),
+}
+
 
 module.exports = meetingController; 

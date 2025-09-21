@@ -157,6 +157,8 @@ router.patch('/:id/status',
   meetingController.updateStatus
 );
 
+router.get('/getmeetings',meetingController.getMeetingCustomer)
+
 // Additional routes for meeting management
 // router.get('/upcoming', 
 //   meetingController.getUpcoming
