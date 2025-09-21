@@ -377,3 +377,5 @@
 {"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-20T18:05:17.064Z"}
 {"level":"info","message":"::1 - - [20/Sep/2025:18:05:17 +0000] \"GET /api/auth/getall HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","timestamp":"2025-09-20T18:05:17.115Z"}
 {"duration":"471ms","level":"info","message":"Request completed","method":"GET","status":304,"timestamp":"2025-09-20T18:05:17.116Z","url":"/api/auth/getall","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36","userId":"unauthenticated"}
+{"level":"info","message":"Starting the application...","timestamp":"2025-09-21T05:56:37.719Z"}
+{"level":"info","message":"MongoDB connected successfully","timestamp":"2025-09-21T05:56:38.228Z"}
