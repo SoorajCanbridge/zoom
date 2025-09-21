@@ -115,6 +115,8 @@ const meetingController = {
     const endDate = req.query.endDate;
 
     let query = {};
+    
+    
 
     // Add status filter
     if (status) {
@@ -130,7 +132,7 @@ const meetingController = {
     }
 
     // If user is not admin, only show their meetings
-    if (req.user.role !== 'admin') {
+    if (req.user?.role !== 'admin') {
       query.host = req.user._id;
     }
 
