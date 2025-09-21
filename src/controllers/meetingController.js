@@ -5,6 +5,7 @@ const zoomService = require('../services/zoomService');
 const emailService = require('../services/emailService');
 const asyncHandler = require('../utils/asyncHandler');
 const ApiResponse = require('../utils/apiResponse');
+const User = require('../models/User')
 
 const meetingController = {
   // Create new meeting
@@ -56,7 +57,10 @@ const meetingController = {
     if (!customer) {
       throw new AppError('Customer not found', 404);
     }
-
+    const user = await User.findById(host)
+    if (!user) {
+      throw new AppError('User not found', 404);
+    }
     const startIso = parsedStart.toISOString();
     const zoomMeeting = await zoomService.createMeeting({
       topic: title,
@@ -71,7 +75,7 @@ const meetingController = {
       duration: durationMinutes,
       zoomMeetingId: String(zoomMeeting.id || zoomMeeting.uuid || ''),
       zoomJoinUrl: zoomMeeting.join_url,
-      host:host,
+      host:user._id,
       // Model fields
       price: numericPrice,
       currency: typeof currency === 'string' && currency.trim() ? currency.trim() : undefined,
@@ -87,7 +91,7 @@ const meetingController = {
     };
 
     await emailService.sendMeetingConfirmation({ ...meeting.toObject(), ...confirmationExtras }, customer);
-    await emailService.sendMeetingConfirmation({ ...meeting.toObject(), ...confirmationExtras }, req.user);
+    await emailService.sendMeetingConfirmation({ ...meeting.toObject(), ...confirmationExtras }, user);
 
     res.status(201).json(
       ApiResponse.success(
