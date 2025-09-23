@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { auth } = require('../middleware/auth');
+const { authEither } = require('../middleware/auth');
 const paymentController = require('../controllers/paymentController');
 const { check } = require('express-validator');
 const { validateRequest } = require('../utils/validator');
@@ -12,7 +12,7 @@ const { validateRequest } = require('../utils/validator');
  *   description: Razorpay order creation and verification
  */
 
-router.use(auth);
+router.use(authEither);
 
 /**
  * @swagger
